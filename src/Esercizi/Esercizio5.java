@@ -15,7 +15,9 @@ public class Esercizio5 {
 
         for (String a :
                 sottoStringhe) {
-            System.out.println(a);
+            if (!a.equals(" ") && !a.equals("")){
+                System.out.println(a);
+            }
         }
     }
 }
