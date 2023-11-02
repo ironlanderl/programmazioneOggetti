@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+
+"MiaClasse" -> "Main"
+"Main" --> "Main2"
+"Main2" .. "Main3"
+"Main3" .> "MiaClasse"
+
+class "Main"{
+    + Main()
+}
+
+class "MiaClasse"{
+    - numeroStudenti: int = 0
+    - nomePercorso: String = "a"
+}
+
+@enduml
