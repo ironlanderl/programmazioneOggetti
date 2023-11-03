@@ -12,3 +12,4 @@ public class Esercizio7 {
         String tmp = "asfsgregsg";
     }
 }
+ooooooooooooooo
