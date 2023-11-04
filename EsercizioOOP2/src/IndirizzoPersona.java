@@ -12,13 +12,18 @@ public class IndirizzoPersona {
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (obj == this) {
-            return true;
-        }
+    public String toString() {
+        return "IndirizzoPersona{" +
+                "nome='" + nome + '\'' +
+                ", cognome='" + cognome + '\'' +
+                ", mail='" + mail + '\'' +
+                ", numeroTelefono='" + numeroTelefono + '\'' +
+                '}';
+    }
 
-        /* Check if o is an instance of Complex or not
-          "null instanceof [type]" also returns false */
+    @Override
+    public boolean equals(Object obj) {
+        // Scarto a priori in caso sia di un altro tipo
         if (!(obj instanceof IndirizzoPersona altra)) {
             return false;
         }
