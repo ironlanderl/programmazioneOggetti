@@ -16,6 +16,7 @@ class IndirizzoPersona{
 +SetMail(nuova: String)
 +SetNumber(nuovo: String)
 +Equals(altro: IndirizzoPersona):Boolean
++IndirizzoPersona()
 }
 
 class Main{

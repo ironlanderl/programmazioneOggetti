@@ -15,5 +15,6 @@ public class Main {
                 e2,
                 m1
         };
+        Manager m = (Manager)eArr[2];
     }
 }
