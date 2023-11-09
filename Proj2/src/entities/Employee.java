@@ -2,7 +2,7 @@ package entities;
 
 import java.time.LocalDate;
 
-public class Employee {
+public class Employee extends Person {
     private String name;
     private double salary;
     private LocalDate hireDay;
@@ -49,4 +49,9 @@ public class Employee {
         double raise = salary * byPercent / 100;
         salary += raise;
     }
+
+    public void getDescription() {
+        System.out.println("lol");
+    }
+
 }
