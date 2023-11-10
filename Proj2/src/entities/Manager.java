@@ -5,6 +5,17 @@ import java.time.LocalDate;
 public class Manager extends Employee {
     private double bonus;
 
+    @Override
+    public String toString() {
+        return "entities.Manager{" +
+                "bonus=" + bonus +
+                ", salary=" + getSalary() +
+                ", name='" + getName() + '\'' +
+                ", salary=" + getSalary() +
+                ", hireDay=" + getHireDay() +
+                '}';
+    }
+
     public Manager(String name, double salary, LocalDate hireDay, double bonus) {
         super(name, salary, hireDay);
         this.bonus = bonus;

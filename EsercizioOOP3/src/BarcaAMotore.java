@@ -37,20 +37,26 @@ public class BarcaAMotore {
 
     public void cambiaVelocita(double nuova) {
         if (velocitaMassima < nuova) {
-            System.out.println("no");
+            System.out.println("no vel");
         } else {
             this.velocitaCorrente = nuova;
         }
     }
 
-    public void naviga(double secondi) {
-        distanzaPercorsa += velocitaCorrente * secondi;
-        capienzaAttuale -= efficienza * Math.pow(velocitaCorrente, 2) * secondi;
+    public void naviga(double tempo) {
+        double carburanteUsato = efficienza * Math.pow(velocitaCorrente, 2) * tempo;
+        if (carburanteUsato <= capienzaAttuale) {
+            distanzaPercorsa += velocitaCorrente * tempo;
+            capienzaAttuale -= carburanteUsato;
+        }
+        else{
+            System.out.println("no naviga");
+        }
     }
 
     public void riempi(double quantita) {
         if (capienzaAttuale + quantita > capienzaTotale) {
-            System.out.println("no");
+            System.out.println("no riempi");
         } else {
             capienzaAttuale += quantita;
         }

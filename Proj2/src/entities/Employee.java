@@ -25,6 +25,15 @@ public class Employee extends Person {
         this.hireDay = hireDay;
     }
 
+    @Override
+    public String toString() {
+        return "entities.Employee{" +
+                "name='" + name + '\'' +
+                ", salary=" + salary +
+                ", hireDay=" + hireDay +
+                '}';
+    }
+
     /***
      * Metodo accessore per leggere lo stato dell'attributo nome
      * @return Nome
