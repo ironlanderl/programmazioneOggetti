@@ -1,15 +1,25 @@
-enum Direzione {
-    NORD(xChange = 0, yChange = 1),
-    EST(xChange = 1, yChange = 0),
-    SUD(xChange = 0, yChange = -1),
-    OVEST(xChange = -1, yChange = 0);
+import java.util.Random;
 
-    private static int xChange = 0;
-    private static int yChange = 0;
+enum Direzione {
+    NORD(0, 1),
+    EST(1, 0),
+    SUD(0, -1),
+    OVEST(-1, 0);
+
+    private final int xChange;
+    private final int yChange;
 
     Direzione(int x, int y) {
-        xChange = x;
-        yChange = y;
+        this.xChange = x;
+        this.yChange = y;
+    }
+
+    public int getxChange() {
+        return xChange;
+    }
+
+    public int getyChange() {
+        return yChange;
     }
 
     public Direzione leftDirection() {
@@ -20,11 +30,16 @@ enum Direzione {
         return values()[(ordinal() + 1) % 4];
     }
 
+    public static Direzione randomDirection(){
+        return values()[new Random().nextInt(0,4)];
+    }
+
     @Override
     public String toString() {
         return "Direzione{" +
                 "xChange=" + xChange +
                 ", yChange=" + yChange +
+                ", name='" + name() + '\'' +
                 '}';
     }
 }
