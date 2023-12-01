@@ -22,7 +22,7 @@ public class LetturaFile {
             System.exit(1);
         }
 
-        if (!myRecords.isEmpty()){
+        if ( !myRecords.isEmpty()){
             for (Record2 r : myRecords)
                 System.out.println(r);
         }

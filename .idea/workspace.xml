@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54278159-0a45-4a3e-801b-3ce53c63467c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimulazioneStarWars/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimulazioneStarWars/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimulazioneStarWars/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimulazioneStarWars/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimulazioneStarWars/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimulazioneStarWars/SimulazioneStarWars.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimulazioneStarWars/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioneFile/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GestioneFile/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioneFile/src/LetturaFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestioneFile/src/LetturaFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/fabri/source/programmazioneOggetti/EsercizioOOP2",
+    "last_opened_file_path": "/home/ironlanderl/IdeaProjects/programmazioneOggetti/SimulazioneStarWars",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,6 +66,7 @@
       <workItem from="1699534586216" duration="337000" />
       <workItem from="1699534945138" duration="1201000" />
       <workItem from="1699537012872" duration="28000" />
+      <workItem from="1701419330430" duration="58000" />
     </task>
     <servers />
   </component>
